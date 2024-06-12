@@ -1,0 +1,526 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #FFF;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: 1px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+  
+.collapsible:hover {
+  background-color: #CCC;
+}
+  
+.collapsible:after {
+  content: "\2B9C";
+  font-size: 13px;
+  color: #000;
+  float: Right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2B9F";
+}
+  
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FFF;
+}
+</style>
+</head>
+<body>
+
+
+<button class="collapsible" type="button"><strong><u>ELECTRIFIED OPTIONS</u></strong></button>
+<div class="content">
+  <p>
+<br>
+  </p>
+  <p>
+    <figure class="table">
+    <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+        <tr height="40">
+          <td height="40" width="30%">
+            Alarm Kit (ALK)
+          </td>
+          <td width="70%">
+            Unauthorized opening triggers horn 
+            <br />
+            Includes RX switch and 9 volt battery
+          </td>
+        </tr>
+        <tr height="20">
+          <td height="20">
+            Allegion Connect (CON)
+          </td>
+          <td>
+            Includes Allegion Connect wire harnesses with connectors on both ends or crimped pins on one end
+          </td>
+        </tr>
+        <tr height="40">
+          <td height="40">
+            Latch Bolt Monitoring (LX)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            2 amp maximum @ 24VDC
+          </td>
+        </tr>
+        <tr height="40">
+          <td height="40">
+            Latch Bolt Monitoring - Low Current (LX-LC)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            Low current (LC) below 50 Milliamps @ 24VDC
+          </td>
+        </tr>
+        <tr height="60">
+          <td height="60">
+            Latch Bolt Monitoring - Request to Exit (LX-RX)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            One RX Switch 
+            <br />
+            2 amp maximum @ 24VDC
+          </td>
+        </tr>
+        <tr height="60">
+          <td height="60">
+            Latch Bolt Monitoring - Request to Exit- Low Current (LX-RX-LC)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            One RX Switch 
+            <br />
+            Low current (LC) below 50 Milliamps @ 24VDC
+          </td>
+        </tr>
+        <tr height="20">
+          <td height="20">
+            Quiet Electric Latch Retraction (QEL)
+          </td>
+          <td>
+            Electronic latch retraction with limited operational noise
+          </td>
+        </tr>
+        <tr height="60">
+          <td height="60">
+            Request To Exit (RX)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            One RX Switch 
+            <br />
+            2 amp maximum @ 24VDC
+          </td>
+        </tr>
+        <tr height="60">
+          <td height="60">
+            Double Request To Exit (RX2)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            Two RX Switches 
+            <br />
+            2 amp maximum @ 24VDC
+          </td>
+        </tr>
+        <tr height="60">
+          <td height="60">
+            Request To Exit - Low Current (RX-LC)
+          </td>
+          <td>
+            Signals use of an opening 
+            <br />
+            One RX Switch 
+            <br />
+            Low current (LC) below 50 Milliamps @ 24VDC
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </figure>
+  </p>
+</div>
+<button class="collapsible" type="button"><strong><u>MECHANICAL OPTIONS</u></strong></button>
+<div class="content">
+
+<p>
+  <br />
+   
+</p>
+<p>
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="40">
+        <td height="40" width="30%">
+          Accessible Device (AX)
+        </td>
+        <td width="70%">
+          Meets the 5 lb. force requirements for the 2010 American Disabilities Act (ADA) and 2013 California Building Code 
+          <br />
+          Requires Less Bottom Rod (LBR) option
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Less Bottom Rod (LBR)
+        </td>
+        <td>
+          Removes the bottom rod, latch, and strike
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Less Dogging (LD)
+        </td>
+        <td>
+          Removes the dogging option
+        </td>
+      </tr>
+      <tr height="40">
+        <td height="40">
+          Drainage/Weep Holes in Mechanism Case (WH)
+        </td>
+        <td>
+          3' device will have 5 holes, 6" spacing 
+          <br />
+          4' device will have 7 holes, 6" spacing
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+  </p>
+</div>
+<button class="collapsible" type="button"><strong><u>FUNCTION OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+<p>
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="20">
+        <td height="20" width="30%">
+          Exit Only (EO)
+        </td>
+        <td width="70%">
+          Default Trim: None
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Dummy Trim (DT)
+        </td>
+        <td>
+          Default Trim: 210DT
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Night Latch, Key Retracts (NL)
+        </td>
+        <td>
+          Default Trim: 210NL
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Night Latch, Optional Pull (NL-OP)
+        </td>
+        <td>
+          Default Trim: 110MD/WD
+        </td>
+      </tr>
+      <tr height="40">
+        <td height="40">
+          Lever - Classroom (L)
+        </td>
+        <td>
+          L-NL not available 
+          <br />
+          Default Trim: 230L
+        </td>
+      </tr>
+      <tr height="40">
+        <td height="40">
+          Lever - Blank Escutcheon (L-BE)
+        </td>
+        <td>
+          Passage Function 
+          <br />
+          Default Trim: 230L-BE
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Thumbpiece (TP)
+        </td>
+        <td>
+          Default Trim: 230TP
+        </td>
+      </tr>
+      <tr height="40">
+        <td height="40">
+          Thumbpiece - Blank Escutcheon (TP-BE)
+        </td>
+        <td>
+          Passage Function 
+          <br />
+          Default Trim: 230TP-BE
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</p>
+</div>
+<button class="collapsible" type="button"><strong><u>FIRE RATING OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+<p>
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="20">
+        <td height="20" width="30%">
+          Panic Exit Device
+        </td>
+        <td width="70%">
+          Certified to ANSI/BHMA A156.3 2014, Grade 1 and UL listed for panic exit hardware.
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Fire Exit Device (-F)
+        </td>
+        <td>
+          Certified to ANSI/BHMA A156.3 2014, Grade 1 and UL listed for fire exit hardware
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</p>
+</div>
+<button class="collapsible" type="button"><strong><u>FINISH OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+  <p>
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="20">
+        <td height="20" width="30%">
+          526
+        </td>
+        <td width="70%">
+          Powder Coated Chrome
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          622
+        </td>
+        <td>
+          Powder Coated Matte Black
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          689
+        </td>
+        <td>
+          Powder Coated Aluminum
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          695
+        </td>
+        <td>
+          Powder Coated Dark Bronze
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</p>
+</div>
+<button class="collapsible" type="button"><strong><u>TRIM CONTROL OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+  <p>
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="20">
+        <td height="20" width="30%">
+          LC
+        </td>
+        <td width="70%">
+          Less Control
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          LT
+        </td>
+        <td>
+          Less Trim
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          230
+        </td>
+        <td>
+          230 Trim for EO, DT, and NL Functions
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</p>
+</div>
+<button class="collapsible" type="button"><strong><u>LEVER DESIGN OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+  <p>
+<figure class="image">
+  <img src="https://www.sentineldoor.com/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/default/img/VD 22 Series Lever Styles.png" alt="22 Series Lever Options" />
+</figure>
+</p>
+</div>
+<button class="collapsible" type="button"><strong><u>STRIKE OPTIONS</u></strong></button>
+<div class="content">
+<p>
+  <br />
+   
+</p>
+<p> 
+<figure class="table">
+  <table border="3 px black" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr height="20">
+        <td height="20" width="30%">
+          Standard Panic Exit Device Strikes
+        </td>
+        <td width="70%">
+          248-L Bottom Strike Projection: 3/8" (10 mm) 
+          <br />
+          304-L Bottom Strike Projection: 13/16" (21 mm) 
+          <br />
+          299 Top Strike Projection: 13/16" (21 mm)
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          Standard Fire Rated Exit Device Strikes
+        </td>
+        <td>
+          248-L Bottom Strike Projection: 3/8" (10 mm) 
+          <br />
+          304-L Bottom Strike Projection: 13/16" (21 mm) 
+          <br />
+          299F Top Strike Projection: 13/16" (21 mm)
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          499F Strike Option
+        </td>
+        <td>
+          For LBR Devices 
+          <br />
+          Projection: 15/16" (24 mm)
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          385A Bottom Strike Option
+        </td>
+        <td>
+          Mortise: 2 1/2" ( 64 mm)
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          260U Top Strike Option
+        </td>
+        <td>
+          For Flush Transom Frames 
+          <br />
+          Projection: 3/8" (10 mm)
+        </td>
+      </tr>
+      <tr height="20">
+        <td height="20">
+          260U-F Top Strike Option
+        </td>
+        <td>
+          For Flush Transom Frames - Fire Rated 
+          <br />
+          Projection: 3/8" (10 mm)
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</p>
+</div>
+  
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
